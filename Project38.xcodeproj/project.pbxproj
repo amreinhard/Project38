@@ -12,6 +12,11 @@
 		BF30DF232096BBF2003F1B33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF30DF212096BBF2003F1B33 /* Main.storyboard */; };
 		BF30DF252096BBF3003F1B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF30DF242096BBF3003F1B33 /* Assets.xcassets */; };
 		BF30DF282096BBF3003F1B33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF30DF262096BBF3003F1B33 /* LaunchScreen.storyboard */; };
+		BF30DF302096BD99003F1B33 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF30DF2F2096BD99003F1B33 /* SwiftyJSON.swift */; };
+		BF30DF3220970387003F1B33 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF30DF3120970387003F1B33 /* DetailViewController.swift */; };
+		BF30DF3520970470003F1B33 /* Project38.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF30DF3320970470003F1B33 /* Project38.xcdatamodeld */; };
+		BF30DF382097D816003F1B33 /* Commit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF30DF362097D816003F1B33 /* Commit+CoreDataClass.swift */; };
+		BF30DF392097D816003F1B33 /* Commit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF30DF372097D816003F1B33 /* Commit+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		BF30DF242096BBF3003F1B33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF30DF272096BBF3003F1B33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF30DF292096BBF3003F1B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF30DF2F2096BD99003F1B33 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		BF30DF3120970387003F1B33 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BF30DF3420970470003F1B33 /* Project38.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Project38.xcdatamodel; sourceTree = "<group>"; };
+		BF30DF362097D816003F1B33 /* Commit+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Commit+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BF30DF372097D816003F1B33 /* Commit+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Commit+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +64,14 @@
 		BF30DF1C2096BBF2003F1B33 /* Project38 */ = {
 			isa = PBXGroup;
 			children = (
+				BF30DF362097D816003F1B33 /* Commit+CoreDataClass.swift */,
+				BF30DF372097D816003F1B33 /* Commit+CoreDataProperties.swift */,
 				BF30DF1D2096BBF2003F1B33 /* AppDelegate.swift */,
 				BF30DF1F2096BBF2003F1B33 /* ViewController.swift */,
+				BF30DF3320970470003F1B33 /* Project38.xcdatamodeld */,
+				BF30DF2F2096BD99003F1B33 /* SwiftyJSON.swift */,
 				BF30DF212096BBF2003F1B33 /* Main.storyboard */,
+				BF30DF3120970387003F1B33 /* DetailViewController.swift */,
 				BF30DF242096BBF3003F1B33 /* Assets.xcassets */,
 				BF30DF262096BBF3003F1B33 /* LaunchScreen.storyboard */,
 				BF30DF292096BBF3003F1B33 /* Info.plist */,
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF30DF382097D816003F1B33 /* Commit+CoreDataClass.swift in Sources */,
+				BF30DF302096BD99003F1B33 /* SwiftyJSON.swift in Sources */,
+				BF30DF392097D816003F1B33 /* Commit+CoreDataProperties.swift in Sources */,
+				BF30DF3520970470003F1B33 /* Project38.xcdatamodeld in Sources */,
 				BF30DF202096BBF2003F1B33 /* ViewController.swift in Sources */,
 				BF30DF1E2096BBF2003F1B33 /* AppDelegate.swift in Sources */,
+				BF30DF3220970387003F1B33 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +354,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF30DF3320970470003F1B33 /* Project38.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF30DF3420970470003F1B33 /* Project38.xcdatamodel */,
+			);
+			currentVersion = BF30DF3420970470003F1B33 /* Project38.xcdatamodel */;
+			path = Project38.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BF30DF122096BBF2003F1B33 /* Project object */;
 }
