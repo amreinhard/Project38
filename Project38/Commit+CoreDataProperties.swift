@@ -2,7 +2,7 @@
 //  Commit+CoreDataProperties.swift
 //  Project38
 //
-//  Created by Amanda Reinhard on 4/30/18.
+//  Created by Amanda Reinhard on 5/1/18.
 //  Copyright © 2018 Amanda Reinhard. All rights reserved.
 //
 //
@@ -21,5 +21,6 @@ extension Commit {
     @NSManaged public var message: String
     @NSManaged public var sha: String
     @NSManaged public var url: String
+    @NSManaged public var author: Author
 
 }

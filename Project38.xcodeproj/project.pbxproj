@@ -17,6 +17,8 @@
 		BF30DF3520970470003F1B33 /* Project38.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF30DF3320970470003F1B33 /* Project38.xcdatamodeld */; };
 		BF30DF382097D816003F1B33 /* Commit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF30DF362097D816003F1B33 /* Commit+CoreDataClass.swift */; };
 		BF30DF392097D816003F1B33 /* Commit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF30DF372097D816003F1B33 /* Commit+CoreDataProperties.swift */; };
+		BF30DF3C20994845003F1B33 /* Author+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF30DF3A20994845003F1B33 /* Author+CoreDataClass.swift */; };
+		BF30DF3D20994845003F1B33 /* Author+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF30DF3B20994845003F1B33 /* Author+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		BF30DF3420970470003F1B33 /* Project38.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Project38.xcdatamodel; sourceTree = "<group>"; };
 		BF30DF362097D816003F1B33 /* Commit+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Commit+CoreDataClass.swift"; sourceTree = "<group>"; };
 		BF30DF372097D816003F1B33 /* Commit+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Commit+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BF30DF3A20994845003F1B33 /* Author+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Author+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BF30DF3B20994845003F1B33 /* Author+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Author+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 		BF30DF1C2096BBF2003F1B33 /* Project38 */ = {
 			isa = PBXGroup;
 			children = (
+				BF30DF3A20994845003F1B33 /* Author+CoreDataClass.swift */,
+				BF30DF3B20994845003F1B33 /* Author+CoreDataProperties.swift */,
 				BF30DF362097D816003F1B33 /* Commit+CoreDataClass.swift */,
 				BF30DF372097D816003F1B33 /* Commit+CoreDataProperties.swift */,
 				BF30DF1D2096BBF2003F1B33 /* AppDelegate.swift */,
@@ -152,8 +158,10 @@
 			files = (
 				BF30DF382097D816003F1B33 /* Commit+CoreDataClass.swift in Sources */,
 				BF30DF302096BD99003F1B33 /* SwiftyJSON.swift in Sources */,
+				BF30DF3D20994845003F1B33 /* Author+CoreDataProperties.swift in Sources */,
 				BF30DF392097D816003F1B33 /* Commit+CoreDataProperties.swift in Sources */,
 				BF30DF3520970470003F1B33 /* Project38.xcdatamodeld in Sources */,
+				BF30DF3C20994845003F1B33 /* Author+CoreDataClass.swift in Sources */,
 				BF30DF202096BBF2003F1B33 /* ViewController.swift in Sources */,
 				BF30DF1E2096BBF2003F1B33 /* AppDelegate.swift in Sources */,
 				BF30DF3220970387003F1B33 /* DetailViewController.swift in Sources */,
